@@ -31,10 +31,10 @@
     margin: auto;
 }
 h2.mt-2.text-center {
-    color: #21bf73;
+    color: #8e44ad;
 }
     .neumorphism {
-        border-radius: 28px;
+        border-radius: 0px;
         background: linear-gradient(225deg, #e6e6e6, #ffffff);
         box-shadow: -5px 5px 10px #d4d4d4,
             5px -5px 10px #ffffff;
@@ -77,9 +77,9 @@ h2.mt-2.text-center {
         height: 25px;
         width: 25px;
         background-color: #343a40;
-        border: 1px solid #ddd;
+        border: 1px solid #8e44ad;
         border-radius: 50%;
-        background: linear-gradient(225deg, #e6e6e6, #ffffff);
+        background: linear-gradient(225deg, #8e44ad, #ffffff);
         box-shadow: -5px 5px 10px #d4d4d4,
             5px -5px 10px #ffffff;
 
@@ -104,7 +104,7 @@ h2.mt-2.text-center {
     }
 
     .options input[type="radio"]:checked~.checkmark {
-        background: #21bf73;
+        background: #8e44ad;
         transition: 300ms ease-in-out 0s
     }
 
@@ -113,19 +113,23 @@ h2.mt-2.text-center {
     }
 
     .btn-primary {
-        background-color: #555;
+        background-color: #8e44ad;
         color: #ddd;
-        border: 1px solid #ddd
+        border: 1px solid #8e44ad ;
     }
 
     .btn-primary:hover {
-        background-color: #21bf73;
-        border: 1px solid #21bf73
+        background-color: #8e44ad;
+        border: 1px solid #8e44ad ;
     }
 
     .btn-success {
         padding: 5px 25px;
-        background-color: #21bf73
+        background-color: #8e44ad;
+    }
+    .btn-success:hover{
+        color:#fff ;
+        background-color: #8e44ad;
     }
 
 
@@ -246,7 +250,7 @@ $shuffle_mcq = shuffle($questions);
 ?>
 
 
-    <h2 class="mt-2 text-center"> Class-7 Assignment-1</h2>
+    <h2 class="mt-2 text-center">Assignment-1</h2>
     <hr class="mb-3">
     <div class="container  my-1">
 
@@ -317,15 +321,15 @@ $team_members = [
 
            [ "member_photo" => "img/rashel.png","member_name" => "RashelRana", "member_descrip" => "Her nick name is Rashel and He live in Mymensingh", "member_social_link" => ["facebook" => "https://www.facebook.com/rashel.rana.75033149/","twitter" => "https://www.linkedin.com/in/rashel-rana-069982208/","linkedin" => "https://www.linkedin.com/in/rashel-rana-069982208/",   ] ],
 
-           [ "member_photo" => "img/rashelrana2.png","member_name" => "RashelRana", "member_descrip" => "Her nick name is Rashel  and He live in Dhaka", "member_social_link" => ["facebook" => "https://www.facebook.com/rashel.rana.75033149/","twitter" => "https://www.facebook.com/rashel.rana.75033149/","linkedin" => "https://www.linkedin.com/in/rashel-rana-069982208/",   ] ],
+           [ "member_photo" => "img/Rashel Rana2.png","member_name" => "RashelRana", "member_descrip" => "Her nick name is Rashel  and He live in Dhaka", "member_social_link" => ["facebook" => "https://www.facebook.com/rashel.rana.75033149/","twitter" => "https://www.facebook.com/rashel.rana.75033149/","linkedin" => "https://www.linkedin.com/in/rashel-rana-069982208/",   ] ],
 
-           [ "member_photo" => "img/rashelrana.png","member_name" => "RashelRana", "member_descrip" => "Her nick name is Rashel  and He live in Jessore", "member_social_link" => ["facebook" => "https://www.facebook.com/rashel.rana.75033149/","twitter" => "https://www.linkedin.com/in/rashel-rana-069982208/","linkedin" => "https://www.linkedin.com/in/rashel-rana-069982208/",   ] ],
+           [ "member_photo" => "img/Rashel Rana.jpg","member_name" => "RashelRana", "member_descrip" => "Her nick name is Rashel  and He live in Jessore", "member_social_link" => ["facebook" => "https://www.facebook.com/rashel.rana.75033149/","twitter" => "https://www.linkedin.com/in/rashel-rana-069982208/","linkedin" => "https://www.linkedin.com/in/rashel-rana-069982208/",   ] ],
 ]
 
 
 ?>
 <!-- array end -->
-<h2 class="mt-2 text-center"> Class-7 Assignment-2</h2>
+<h2 class="mt-2 text-center">Assignment-2</h2>
     <hr class="mb-3">
  <div class="container-fuild my_team">
  <div class="container ">
